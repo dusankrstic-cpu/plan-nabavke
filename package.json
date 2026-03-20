@@ -1,0 +1,22 @@
+{
+  "name": "math-utils-project",
+  "version": "1.0.0",
+  "description": "Math utility functions with Jest testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "math",
+    "utilities",
+    "clamp",
+    "lerp",
+    "round"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
