@@ -23,18 +23,22 @@
     "exactOptionalPropertyTypes": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "noUncheckedIndexedAccess": true
+    "noUncheckedIndexedAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
-    "src/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
+    "src/**/*",
     "**/*.test.ts",
     "**/*.spec.ts"
   ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "ts-node": {
-    "esm": false
+    "esm": false,
+    "files": true
   }
 }
